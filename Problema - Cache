@@ -1,0 +1,5 @@
+Atualizando o Cache
+
+Um cache de atualização é um cache de memória de baixo consumo de recursos. É usado quando a memória é escassa e os valores do dicionário mudam a cada pouco tempo.
+O cache contém dados chave-valor até que expire(definido por um tempo limite). Se não tiver dados, chama outro, em prática, objeto mais lento(agindo como um "computador", pense num serviço remoto) para obter o dado, põe no cache e o retorna. O cache tem um número máximo de itens, e se receber mais um item quando estiver cheio, o menos recentemente usado deve ser descartado.
+
